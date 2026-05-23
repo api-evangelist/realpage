@@ -1,0 +1,232 @@
+aid: realpage
+name: RealPage
+url: https://raw.githubusercontent.com/api-evangelist/realpage/refs/heads/main/apis.yml
+description: >-
+  RealPage is a multifamily and rental-housing software company offering
+  property management, marketing, leasing, resident experience, accounting,
+  facilities, utility, spend, revenue management, and AI workforce tooling
+  across a large portfolio of products including OneSite, Knock CRM, G5
+  Marketing, Online Leasing, LOFT Resident Portal, AI Revenue Management,
+  Lumina AI Workforce, and the RealPage Exchange (RPX) integration platform.
+  RealPage is enterprise sales-led; partner integrations are exposed through
+  the RPX integration marketplace and provisioned under contract rather than
+  via a public self-serve developer portal.
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Property Management
+  - Multifamily
+  - Rental Housing
+  - Revenue Management
+  - Leasing
+  - PropTech
+  - Resident Experience
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: realpage:realpage-exchange
+    name: RealPage Exchange (RPX)
+    description: >-
+      RealPage's integration marketplace and partner API surface offering
+      standardised APIs across RealPage products for ATS-like data exchange,
+      property data, residents, leases, and financials. Access is provisioned
+      to certified partners and customers under contract.
+    humanURL: https://www.realpage.com
+    baseURL: https://www.realpage.com
+    tags:
+      - Integration Marketplace
+      - Partner API
+      - Data Exchange
+    properties:
+      - type: Documentation
+        url: https://www.realpage.com
+  - aid: realpage:onesite
+    name: RealPage OneSite Property Management System
+    description: >-
+      OneSite is RealPage's flagship multifamily property management system
+      covering accounting, leasing, resident, and operational workflows.
+    humanURL: https://www.realpage.com
+    baseURL: https://www.realpage.com
+    tags:
+      - Property Management
+      - PMS
+      - Multifamily
+    properties:
+      - type: Documentation
+        url: https://www.realpage.com
+  - aid: realpage:ai-revenue-management
+    name: RealPage AI Revenue Management (AIRM)
+    description: >-
+      AI-driven rent pricing and revenue management product for multifamily
+      operators, using portfolio and market data to recommend unit-level
+      pricing.
+    humanURL: https://www.realpage.com
+    baseURL: https://www.realpage.com
+    tags:
+      - Revenue Management
+      - Pricing
+      - AI
+    properties:
+      - type: Documentation
+        url: https://www.realpage.com
+  - aid: realpage:lumina-ai-workforce
+    name: RealPage Lumina AI Workforce
+    description: >-
+      AI agent suite operating across operations, leasing, and resident
+      support inside the RealPage product line.
+    humanURL: https://www.realpage.com
+    baseURL: https://www.realpage.com
+    tags:
+      - AI Agents
+      - Workforce
+      - Operations
+    properties:
+      - type: Documentation
+        url: https://www.realpage.com
+  - aid: realpage:knock-crm
+    name: RealPage Knock CRM
+    description: >-
+      Leasing CRM that captures prospects, manages tours, and tracks
+      conversion across multifamily properties.
+    humanURL: https://www.realpage.com
+    baseURL: https://www.realpage.com
+    tags:
+      - CRM
+      - Leasing
+      - Prospects
+    properties:
+      - type: Documentation
+        url: https://www.realpage.com
+  - aid: realpage:g5-marketing
+    name: RealPage G5 Marketing
+    description: >-
+      Digital marketing platform covering websites, SEO, paid media, and
+      reputation for multifamily and other rental-housing operators.
+    humanURL: https://www.realpage.com
+    baseURL: https://www.realpage.com
+    tags:
+      - Digital Marketing
+      - Websites
+      - SEO
+    properties:
+      - type: Documentation
+        url: https://www.realpage.com
+  - aid: realpage:online-leasing
+    name: RealPage Online Leasing
+    description: >-
+      Self-service online leasing workflow covering application, screening,
+      lease execution, and move-in.
+    humanURL: https://www.realpage.com
+    baseURL: https://www.realpage.com
+    tags:
+      - Leasing
+      - Online Application
+      - Move-In
+    properties:
+      - type: Documentation
+        url: https://www.realpage.com
+  - aid: realpage:loft-resident-portal
+    name: RealPage LOFT Resident Portal
+    description: >-
+      Resident-facing portal and mobile app for payments, maintenance
+      requests, communications, and resident services.
+    humanURL: https://www.realpage.com
+    baseURL: https://www.realpage.com
+    tags:
+      - Resident Portal
+      - Mobile
+      - Resident Experience
+    properties:
+      - type: Documentation
+        url: https://www.realpage.com
+  - aid: realpage:financial-accounting
+    name: RealPage Financial Management & Accounting
+    description: >-
+      Accounting and financial management products covering general ledger,
+      payables, receivables, and reporting for rental-housing operators.
+    humanURL: https://www.realpage.com
+    baseURL: https://www.realpage.com
+    tags:
+      - Accounting
+      - Financial Management
+      - GL
+    properties:
+      - type: Documentation
+        url: https://www.realpage.com
+  - aid: realpage:facilities
+    name: RealPage Facilities & Maintenance
+    description: >-
+      Facilities and maintenance management product covering work orders,
+      preventive maintenance, and vendor coordination.
+    humanURL: https://www.realpage.com
+    baseURL: https://www.realpage.com
+    tags:
+      - Facilities
+      - Maintenance
+      - Work Orders
+    properties:
+      - type: Documentation
+        url: https://www.realpage.com
+  - aid: realpage:utility-sustainability
+    name: RealPage Utility & Sustainability Management
+    description: >-
+      Utility billing, sub-metering, and sustainability reporting product set
+      for rental-housing operators.
+    humanURL: https://www.realpage.com
+    baseURL: https://www.realpage.com
+    tags:
+      - Utility
+      - Sustainability
+      - Billing
+    properties:
+      - type: Documentation
+        url: https://www.realpage.com
+  - aid: realpage:spend-vendor
+    name: RealPage Spend & Vendor Management
+    description: >-
+      Procurement, vendor management, and spend controls integrated with
+      RealPage accounting and operations.
+    humanURL: https://www.realpage.com
+    baseURL: https://www.realpage.com
+    tags:
+      - Spend Management
+      - Vendor Management
+      - Procurement
+    properties:
+      - type: Documentation
+        url: https://www.realpage.com
+  - aid: realpage:analytics
+    name: RealPage Analytics
+    description: >-
+      Analytics and benchmarking products covering operational, financial,
+      market, and revenue metrics for the rental-housing portfolio.
+    humanURL: https://www.realpage.com
+    baseURL: https://www.realpage.com
+    tags:
+      - Analytics
+      - Benchmarking
+      - Reporting
+    properties:
+      - type: Documentation
+        url: https://www.realpage.com
+common:
+  - type: Website
+    url: https://www.realpage.com
+  - type: CustomerPortal
+    url: https://realpage.my.site.com/RealPage/s/login/
+  - type: Training
+    url: https://www.realpage.com/training/
+  - type: Support
+    url: https://www.realpage.com/support/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/realpage/
+integrations:
+  - name: Buildium
+  - name: Yardi
+  - name: AppFolio
+  - name: Entrata
+  - name: MRI Software
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
