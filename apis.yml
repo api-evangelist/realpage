@@ -10,7 +10,7 @@ description: RealPage is a multifamily and rental-housing software company offer
   exposed through the RPX integration marketplace and provisioned under contract rather
   than via a public self-serve developer portal.
 kind: company
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Property Management
 - Multifamily
