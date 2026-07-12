@@ -197,6 +197,12 @@ apis:
   - type: Documentation
     url: https://www.realpage.com
 common:
+- type: VulnerabilityDisclosure
+  url: security/realpage-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/realpage-domain-security.yml
+- url: https://www.realpage.com/blog/feed/
+  type: Blog
 - type: Website
   url: https://www.realpage.com
 - type: CustomerPortal
