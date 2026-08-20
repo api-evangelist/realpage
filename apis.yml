@@ -62,6 +62,10 @@ apis:
     tags:
       - Revenue Management
       - Pricing
+      - Artificial Intelligence
+    tags_raw:
+      - Revenue Management
+      - Pricing
       - AI
     properties:
       - type: Documentation
@@ -72,6 +76,9 @@ apis:
     humanURL: https://www.realpage.com
     baseURL: https://www.realpage.com
     tags:
+      - AI Agents
+      - Workforce
+    tags_raw:
       - AI Agents
       - Workforce
       - Operations
