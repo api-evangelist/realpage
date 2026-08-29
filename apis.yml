@@ -3,6 +3,17 @@ name: RealPage
 url: https://raw.githubusercontent.com/api-evangelist/realpage/refs/heads/main/apis.yml
 description: RealPage is a multifamily and rental-housing software company offering property management, marketing, leasing, resident experience, accounting, facilities, utility, spend, revenue management, and AI workforce tooling across a large portfolio of products including OneSite, Knock CRM, G5 Marketing, Online Leasing, LOFT Resident Portal, AI Revenue Management, Lumina AI Workforce, and the RealPage Exchange (RPX) integration platform. RealPage is enterprise sales-led; partner integrations are exposed through the RPX integration marketplace and provisioned under contract rather than via a public self-serve developer portal.
 kind: company
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
