@@ -1,0 +1,35 @@
+# Front Door AI Index — realpage — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: realpage
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.realpage.com
+  final_host: www.realpage.com
+  ownership: own
+  owner: realpage
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 111
+  host_score: 111
+  density: 23.43
+  words: 4737
+  tiers:
+    agentic: 8
+    core: 102
+    model: 1
+  ambiguous: 90
+  top_terms:
+    AI: 101
+    agent: 41
+    smart: 25
+    intelligence: 19
+    agentic: 4
+    automation: 4
+    AI agent: 2
+    AI assistant: 2
+    OpenAI: 1
+    artificial intelligence: 1
+    predictive: 1
