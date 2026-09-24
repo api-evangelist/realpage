@@ -51,8 +51,6 @@ apis:
     properties:
       - type: Documentation
         url: https://www.realpage.com
-      - url: graphql/realpage-graphql.md
-        type: GraphQL
   - aid: realpage:onesite
     name: RealPage OneSite Property Management System
     description: OneSite is RealPage's flagship multifamily property management system covering accounting, leasing, resident, and operational workflows.
