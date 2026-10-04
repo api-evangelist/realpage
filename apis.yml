@@ -43,7 +43,6 @@ apis:
     name: RealPage Exchange (RPX)
     description: RealPage's integration marketplace and partner API surface offering standardised APIs across RealPage products for ATS-like data exchange, property data, residents, leases, and financials. Access is provisioned to certified partners and customers under contract.
     humanURL: https://www.realpage.com
-    baseURL: https://www.realpage.com
     tags:
       - Integration Marketplace
       - Partner API
@@ -55,7 +54,6 @@ apis:
     name: RealPage OneSite Property Management System
     description: OneSite is RealPage's flagship multifamily property management system covering accounting, leasing, resident, and operational workflows.
     humanURL: https://www.realpage.com
-    baseURL: https://www.realpage.com
     tags:
       - Property Management
       - PMS
@@ -67,7 +65,6 @@ apis:
     name: RealPage AI Revenue Management (AIRM)
     description: AI-driven rent pricing and revenue management product for multifamily operators, using portfolio and market data to recommend unit-level pricing.
     humanURL: https://www.realpage.com
-    baseURL: https://www.realpage.com
     tags:
       - Revenue Management
       - Pricing
@@ -83,7 +80,6 @@ apis:
     name: RealPage Lumina AI Workforce
     description: AI agent suite operating across operations, leasing, and resident support inside the RealPage product line.
     humanURL: https://www.realpage.com
-    baseURL: https://www.realpage.com
     tags:
       - AI Agents
       - Workforce
@@ -98,7 +94,6 @@ apis:
     name: RealPage Knock CRM
     description: Leasing CRM that captures prospects, manages tours, and tracks conversion across multifamily properties.
     humanURL: https://www.realpage.com
-    baseURL: https://www.realpage.com
     tags:
       - CRM
       - Leasing
@@ -110,7 +105,6 @@ apis:
     name: RealPage G5 Marketing
     description: Digital marketing platform covering websites, SEO, paid media, and reputation for multifamily and other rental-housing operators.
     humanURL: https://www.realpage.com
-    baseURL: https://www.realpage.com
     tags:
       - Digital Marketing
       - Websites
@@ -122,7 +116,6 @@ apis:
     name: RealPage Online Leasing
     description: Self-service online leasing workflow covering application, screening, lease execution, and move-in.
     humanURL: https://www.realpage.com
-    baseURL: https://www.realpage.com
     tags:
       - Leasing
       - Online Application
@@ -134,7 +127,6 @@ apis:
     name: RealPage LOFT Resident Portal
     description: Resident-facing portal and mobile app for payments, maintenance requests, communications, and resident services.
     humanURL: https://www.realpage.com
-    baseURL: https://www.realpage.com
     tags:
       - Resident Portal
       - Mobile
@@ -146,7 +138,6 @@ apis:
     name: RealPage Financial Management & Accounting
     description: Accounting and financial management products covering general ledger, payables, receivables, and reporting for rental-housing operators.
     humanURL: https://www.realpage.com
-    baseURL: https://www.realpage.com
     tags:
       - Accounting
       - Financial Management
@@ -158,7 +149,6 @@ apis:
     name: RealPage Facilities & Maintenance
     description: Facilities and maintenance management product covering work orders, preventive maintenance, and vendor coordination.
     humanURL: https://www.realpage.com
-    baseURL: https://www.realpage.com
     tags:
       - Facilities
       - Maintenance
@@ -170,7 +160,6 @@ apis:
     name: RealPage Analytics
     description: Analytics and benchmarking products covering operational, financial, market, and revenue metrics for the rental-housing portfolio.
     humanURL: https://www.realpage.com
-    baseURL: https://www.realpage.com
     tags:
       - Analytics
       - Benchmarking
