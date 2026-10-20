@@ -1,8 +1,13 @@
 aid: realpage
+
 name: RealPage
+
 url: https://raw.githubusercontent.com/api-evangelist/realpage/refs/heads/main/apis.yml
+
 description: RealPage is a multifamily and rental-housing software company offering property management, marketing, leasing, resident experience, accounting, facilities, utility, spend, revenue management, and AI workforce tooling across a large portfolio of products including OneSite, Knock CRM, G5 Marketing, Online Leasing, LOFT Resident Portal, AI Revenue Management, Lumina AI Workforce, and the RealPage Exchange (RPX) integration platform. RealPage is enterprise sales-led; partner integrations are exposed through the RPX integration marketplace and provisioned under contract rather than via a public self-serve developer portal.
+
 kind: company
+
 deliveryModel:
   model: unknown
   open_source: false
@@ -14,6 +19,7 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+
 accessModel:
   pricing: free
   onboarding: unknown
@@ -26,7 +32,9 @@ accessModel:
     - plans
   generated: '2026-07-22'
   method: derived
+
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/realpage.png
+
 tags:
   - Property Management
   - Multifamily
@@ -35,21 +43,76 @@ tags:
   - Leasing
   - PropTech
   - Resident Experience
+
 created: '2026-05-23'
+
 modified: '2026-07-25'
+
 specificationVersion: '0.23'
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+
+common:
+  - type: WellKnown
+    url: well-known/realpage-well-known.yml
+  - type: Hosts
+    url: hosts/realpage-hosts.yml
+  - type: Vendors
+    url: vendors/realpage-vendors.yml
+  - type: Security
+    url: https://www.realpage.com/support/security/responsible-disclosure/
+  - type: GitHubOrganization
+    url: https://github.com/RealPage
+  - type: Plans
+    url: plans/realpage-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/realpage-rate-limits.yml
+  - type: FinOps
+    url: finops/realpage-finops.yml
+  - type: VulnerabilityDisclosure
+    url: security/realpage-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/realpage-domain-security.yml
+  - url: https://www.realpage.com/blog/feed/
+    type: Blog
+  - type: Website
+    url: https://www.realpage.com
+  - type: DeveloperPortal
+    url: https://developer.realpage.com/
+  - type: APIReference
+    url: https://developer.realpage.com/explore/api
+  - type: SignUp
+    url: https://developer.realpage.com/get-started
+  - type: PrivacyPolicy
+    url: https://www.realpage.com/legal/privacy-policy/
+  - type: TermsOfService
+    url: https://www.realpage.com/legal/terms-of-use/
+  - type: Newsroom
+    url: https://www.realpage.com/news/
+  - type: CustomerPortal
+    url: https://realpage.my.site.com/RealPage/s/login/
+  - type: Training
+    url: https://www.realpage.com/training/
+  - type: Support
+    url: https://www.realpage.com/support/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/realpage/
+
 apis:
   - aid: realpage:realpage-exchange
     name: RealPage Exchange (RPX)
     description: RealPage's integration marketplace and partner API surface offering standardised APIs across RealPage products for ATS-like data exchange, property data, residents, leases, and financials. Access is provisioned to certified partners and customers under contract.
-    humanURL: https://www.realpage.com
+    humanURL: https://developer.realpage.com/explore/api
+    baseURL: https://api.realpage.com
     tags:
       - Integration Marketplace
       - Partner API
       - Data Exchange
     properties:
       - type: Documentation
-        url: https://www.realpage.com
+        url: https://developer.realpage.com/explore/api
   - aid: realpage:onesite
     name: RealPage OneSite Property Management System
     description: OneSite is RealPage's flagship multifamily property management system covering accounting, leasing, resident, and operational workflows.
@@ -167,35 +230,28 @@ apis:
     properties:
       - type: Documentation
         url: https://www.realpage.com
-common:
-  - type: Plans
-    url: plans/realpage-plans-pricing.yml
-  - type: RateLimits
-    url: rate-limits/realpage-rate-limits.yml
-  - type: FinOps
-    url: finops/realpage-finops.yml
-  - type: VulnerabilityDisclosure
-    url: security/realpage-vulnerability-disclosure.yml
-  - type: DomainSecurity
-    url: security/realpage-domain-security.yml
-  - url: https://www.realpage.com/blog/feed/
-    type: Blog
-  - type: Website
-    url: https://www.realpage.com
-  - type: CustomerPortal
-    url: https://realpage.my.site.com/RealPage/s/login/
-  - type: Training
-    url: https://www.realpage.com/training/
-  - type: Support
-    url: https://www.realpage.com/support/
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/realpage/
+
 integrations:
   - name: Buildium
   - name: Yardi
   - name: AppFolio
   - name: Entrata
   - name: MRI Software
-maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+x-coverage:
+  state: gated
+  reason: partner-login
+  detail: developer.realpage.com publicly lists 16 AppPartner APIs (Accounts Payable v2, Knock API, Resident Management, Units...) as route names only, with route-level docs and credentials behind AppPartner vendor registration at /get-started, so no contract was published or generatable.
+  evidence:
+    - url: https://developer.realpage.com/explore/api
+      status: 200
+    - url: https://developer.realpage.com/get-started
+      status: 200
+    - url: https://api.realpage.com/openapi.json
+      status: 404
+  checked: '2026-10-20'
+x-enrichment:
+  date: '2026-10-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v5
+

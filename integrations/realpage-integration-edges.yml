@@ -1,0 +1,22 @@
+generated: '2026-10-20'
+method: none
+source:
+- https://developer.realpage.com/explore/api
+- https://zapier.com/apps/realpage/integrations
+- https://n8n.io/integrations/realpage/
+- https://composio.dev/toolkits/realpage
+- https://monid.ai/tools/realpage
+checked:
+- https://developer.realpage.com/explore/api
+- https://developer.realpage.com/get-started
+- https://composio.dev/toolkits/realpage
+- https://monid.ai/tools/realpage
+- https://n8n.io/integrations/realpage/
+- https://zapier.com/apps/realpage/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
+note: The public AppPartner API catalog lists 16 RealPage APIs; its Accounts Payable documentation links to developer.intacct.com
+  (RealPage Accounting is documented on Sage Intacct's reference), which is a documentation dependency, not a named
+  partner integration. No public partner/marketplace listing was readable without AppPartner registration.
